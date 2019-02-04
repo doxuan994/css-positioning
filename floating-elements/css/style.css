@@ -39,6 +39,21 @@
     height: 100px;
     width: 100px;
 } */
+#banner {
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+}
+/* Center vertical the text. */
+#banner h2 {
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
 .service h2, .service p {
     color: #999;
     margin: 10px 0;
