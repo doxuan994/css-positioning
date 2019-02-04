@@ -5,6 +5,8 @@
     padding: 20px;
     position: relative;
     z-index: 0;
+    /* nav ul has margin 16px and padding 40px to push the wrapper down applied margin-top */
+    margin-top: 56px;
 }
 .wrapper::after {
     content: "";
