@@ -54,7 +54,11 @@
 /* Center vertical the text. */
 #banner h2 {
     position: absolute;
-    top: 130px;
+    /* Fixed centered text not center when making the screen smaller by
+    remove the fixed size top:130px and changed to %size and added transform. */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 100%;
     text-align: center;
     color: #fff;
